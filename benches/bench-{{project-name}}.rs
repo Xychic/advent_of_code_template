@@ -1,4 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
+use std::{fs};
 use {{project-name}}::*;
 
 pub fn criterion_benchmark(c: &mut Criterion) {

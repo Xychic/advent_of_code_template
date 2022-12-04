@@ -1,5 +1,5 @@
 use {{project-name}}::*;
-use std::time::Instant;
+use std::{time::Instant, fs};
 
 fn main() {
     let start = Instant::now();
