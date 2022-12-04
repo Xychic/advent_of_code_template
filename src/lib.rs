@@ -1,5 +1,3 @@
-use std::fs;
-
 type Input<'a> = Vec<&'a str>;
 
 pub fn parse(input: &str) -> Input {
