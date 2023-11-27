@@ -1,6 +1,6 @@
+use {{project-name}}::{parse, part_1, part_2};
 use criterion::{criterion_group, criterion_main, Criterion};
 use std::{fs};
-use {{project-name}}::*;
 
 pub fn criterion_benchmark(c: &mut Criterion) {
     let raw_input = fs::read_to_string("../../input.txt").expect("error reading file");
