@@ -1,6 +1,6 @@
 type Input<'a> = Vec<&'a str>;
 
-/// Parser for {{year}} Day {{day}} ({{project-name}})
+/// Parser for {{year}} Day {{day}} (`{{project-name}}`)
 ///
 /// # Panics
 #[must_use] pub fn parse(input: &str) -> Input {
@@ -8,7 +8,7 @@ type Input<'a> = Vec<&'a str>;
     todo!()
 }
 
-/// Solver for part 1 of {{year}} Day {{day}} ({{project-name}})
+/// Solver for part 1 of {{year}} Day {{day}} (`{{project-name}}`)
 ///
 /// # Panics
 #[must_use] pub fn part_1(input: &Input) -> usize {
@@ -16,7 +16,7 @@ type Input<'a> = Vec<&'a str>;
     todo!()
 }
 
-/// Solver for part 2 of {{year}} Day {{day}} ({{project-name}})
+/// Solver for part 2 of {{year}} Day {{day}} (`{{project-name}}`)
 ///
 /// # Panics
 #[must_use] pub fn part_2(input: &Input) -> usize {

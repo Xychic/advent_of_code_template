@@ -2,7 +2,7 @@ use {{project-name}}::{parse, part_1, part_2};
 use criterion::{criterion_group, criterion_main, Criterion};
 use std::{fs};
 
-/// Benchmark for part 1 of {{year}} Day {{day}} ({{project-name}})
+/// Benchmark for part 1 of {{year}} Day {{day}} (`{{project-name}}`)
 ///
 /// # Panics
 pub fn criterion_benchmark(c: &mut Criterion) {
