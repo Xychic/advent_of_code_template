@@ -31,11 +31,11 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        assert_eq!(part_1(&parse(&TEST_1_INPUT)), TEST_1_ANSWER);
+        assert_eq!(part_1(&parse(TEST_1_INPUT)), TEST_1_ANSWER);
     }
 
     // #[test]
     // fn test_part_2() {
-    //     assert_eq!(part_2(&parse(&TEST_2_INPUT)), TEST_2_ANSWER);
+    //     assert_eq!(part_2(&parse(TEST_2_INPUT)), TEST_2_ANSWER);
     // }
 }
